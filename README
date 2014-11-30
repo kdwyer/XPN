@@ -1,0 +1,24 @@
+*******************************************************************************
+*                          X Python Newsreader                                *
+*                                 README                                      *
+*******************************************************************************
+
+What is it?
+ XPN is a simple newsreader written in python using the Gtk+ toolkit for the GUI.
+
+ XPN has a good support for MIME standards (but it has a partial support for 
+ multipart articles), so please use it carefully and on text-only newsgroups.
+ However XPN is fully unicode compliant.
+
+Requirements:
+
+ - Python (2.5 or better)
+ - PyGtk (2.8 or better)
+ - GTK+ (2.8 or better)
+
+Read "xpn.html" for more informations.
+
+XPN - X Python Newsreader 
+Copyright (C) 2003 Antonio Caputo <nemesis2001@gmx.it>
+Released under the terms of the GNU General Public License.
+See the file COPYING for details.

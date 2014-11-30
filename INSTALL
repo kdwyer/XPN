@@ -1,0 +1,27 @@
+*******************************************************************************
+*                           X Python Newsreader                               *
+*                                 INSTALL                                     *
+*******************************************************************************
+
+No installation required.
+You just have to launch the programm from its directory, using:
+
+./xpn.py
+
+type 
+ 
+./xpn.py --help
+
+to get informations on command-line options
+
+Note: XPN won't work if you launch it with a symlink that point to the 
+      file xpn.py. But you can create a simple launcher script like this:
+
+      #! /usr/bin/env bash
+      /path/to/xpn/dir/xpn.py
+
+      and then you can creat a symlink that points on this launcher.
+
+
+XPN - X Python Newsreader 
+Copyright (C) 2003 Antonio Caputo <nemesis2001@gmx.it>

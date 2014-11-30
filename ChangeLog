@@ -1,0 +1,315 @@
+XPN - X Python Newsreader
+
+2009-02-01
+    * v1.2.6: Now threads with unread watched articles are underlined
+    * v1.2.6: added a visualization option that lets you hide threads without
+    * v1.2.6: watched articles
+    * v1.2.6: fixed a bug that caused XPN not to kill old articles reapplying rules
+    * v1.2.6: fixed a bug that caused crashes when using ID with extended chars
+
+2008-09-13
+    * v1.2.5: rewritten the articles management, now the articles are stored in a
+              SQLite dB. Articles management now is faster and easier.
+              Your xpn-1.0.0 groups and articles will be automatically imported 
+              and converted to the new format.
+    * v1.2.5: added a filter toolbar that lets you filter the articles by Subject
+              From and Body content.
+    * v1.2.5: improved the algorithm used to build the discussion threads
+    * v1.2.5: revisited the menus and some windows
+    * v1.2.5: added automatic headers download every tot minutes
+    * v1.2.5: some minor fixes and refinements.
+
+2008-02-02
+    * v1.0.0: added multi-identity support
+    * v1.0.0: added nineteen new layouts
+    * v1.0.0: fixed a bug that made garbled the X-Faces in replies
+    * v1.0.0: merged a patch from Facundo Batista that lets me work on Threads objects.
+              Its first application is the 'View Option' 'Show All Read Threads' that
+              lets you hide/show threads with all read articles.
+    * v1.0.0: eventually GTK supports the long awaited set_enable_tree_lines property, that
+              shows connecting lines between articles in the same thread
+    * v1.0.0: some minor fixes.
+
+2007-01-07
+    * v0.7.0: added basic multiserver support. 
+              This change has required some modifications to the groups db 
+              format, in order to keep your subscriptions you need to export 
+              to a newsrc file from XPN-0.6.5 and reimport it in XPN-0.7.0.
+    * v0.7.0: now is possible to use Function keys for customized keybindings
+    * v0.7.0: modified the command used to test the connection in order to
+              prevent hamster hang-ups.
+    * v0.7.0: fixed a bug that caused XPN to crash trying to export newsrc
+              file with empty groups subscribed.
+    * v0.7.0: fixed a bug in "Apply Scoring and Actions Rules" feature that 
+              caused XPN crashes trying to apply !kill rule.
+    * v0.7.0: some minor fixes.
+
+2006-09-11
+    * v0.6.5: now is possible to customize the keyboad shortcuts. XPN will also
+              check for duplicated shortcuts
+    * v0.6.5: added a new way to show threads, now is possible to put the
+              threads expander in the From column
+    * v0.6.5: now is possible to subscribe a group writing its name manually
+              so you don't have to download the groups list
+    * v0.6.5: now is possible to limit the number of articles headers to 
+              download with the Get New Headers function
+    * v0.6.5: now is possible to choose the headers to show in the Article Pane,
+              and the background color of this area now is customizable
+    * v0.6.5: added two new layouts for the main window
+    * v0.6.5: now is possible to re-apply the scoring/action rules on the 
+              articles you have already downloaded.
+    * v0.6.5: fixed a bug in the Config Window that caused XPN not to change the
+              color for URLs.
+    * v0.6.5: fixed a bug that caused XPN not open the next article when the 
+              first thread was selected and collapsed
+    * v0.6.5: fixed a bug in the View Parent function
+    * v0.6.5: fixed a bug in the Export Newsrc function, that caused ad crash 
+              trying to export groups with 0 articles inside.
+
+
+2006-07-13
+    * v0.5.7: fixed a bug that caused XPN not to open empty articles
+    * v0.5.7: fixed a bug that occurs with newer GTK releases that caused XPN not
+              to show bold face fonts in Groups Pane and Threads Pane
+    * v0.5.7: added a key-combo that lets you scroll up the article
+    * v0.5.7: fixed an issue with orderings save.
+    * v0.5.7: reorganized and changed the appearance of the Config Window
+    * v0.5.7: changed the appearance of the Score Window
+    * v0.5.7: changed the way article headers and X-Face are shown in the Article Pane
+    * v0.5.7: added a groups context menu
+    * v0.5.7: added some new voices in the threads context menu
+    
+2006-03-10
+    * v0.5.6: added message-id recognition. Now XPN tries to recognize message-ids
+              in the text and make them clickable in order to open a search window.
+    * v0.5.6: added a dialog window that informs you when XPN downloads new
+              articles in watched threads.
+    * v0.5.6: some improvements in Global Search, now is possible to perform
+              multiple searches.
+    * v0.5.6: now XPN checks if there are other istances running (it uses 
+              the file xpn.lock in the XPN directory). This behaviour should
+              prevent database break off.
+    * v0.5.6: some fixes in the Score Window
+    * v0.5.6: fixed some bugs in header management
+    * v0.5.6: fixed a bug that caused crashes with multipart articles with 
+              email attached
+    * v0.5.6: changed subversion
+
+2005-10-02
+    * v0.5.5: improved support for outgoing/draf articles, now is possible to
+              re-edit queued articles.
+    * v0.5.5: added a simple SSL connection support (no certificates checks)
+    * v0.5.5: added multipart article support (no binary attachments support)
+    * v0.5.5: added German translation (thanks to Rene Fischer)
+    * v0.5.5: fixed a bug that caused crashes with strange Date fields
+    * v0.5.5: fixed a bug in newsrc importing, now is alse possible to import
+              not standard newsrc files like the Xnews ones.
+    * v0.5.5: fixed a bug in the newsrc system that caused a crash with groups
+              containings lots of articles
+    * v0.5.5: a lot of little bug-fixes and little enhancements
+    * v0.5.5: changed subversion
+
+
+2005-07-15
+    * v0.5.0: added some checks on the validity of out-going articles, as required by
+              the GNKSA2.0
+    * v0.5.0: added Reply-To, Followup-To and Newsgroups headers in the Article Pane,
+              as required by the GNKSA2.0
+    * v0.5.0: added !setcolor action, it lets you modify the foreground and 
+              backgrounnd colors of the article.
+    * v0.5.0: added inverted rules, they are successfull when the match is not
+              satisfied.
+    * v0.5.0: now is possible to disable the threaded view.
+    * v0.5.0: now sorting column in the Threads Pane is stored
+    * v0.5.0: the header parser has been rewritten
+    * v0.5.0: added double-click support when you subscribe/unsubscribe 
+              groups (thanks to Lethalman).
+    * v0.5.0: fixed a bug in the autowrap feature that created double lines 
+              in some circumstances.
+    * v0.5.0: now the "View Raw Article" is correctly stored.
+
+2005-05-27
+    * v0.4.6: improved speed in article retrieving
+    * v0.4.6: added an indicator of unread articles in thread, now you don't have to open
+              the thread in order to know if it contains unread articles.
+    * v0.4.6: now the "CANCEL" works again, and "SUPERSEDE" lets you re-edit the original
+              article text.
+    * v0.4.6: fixed some pygtk issues, now XPN works correctly also with pygtk2.6 (and GTK2.6)
+    * v0.4.6: fixed a bug in the "Edit Mail" window that caused some errors when closing
+              the window.
+    * v0.4.6: now the Error Dialog is shown also when XPN isn't able to start (thanks 
+              to Antonio Valentino).
+    * v0.4.6: fixed some issues with shelve module that caused problems on some FreeBSD systems.
+    * v0.4.6: some improvements in the french translation (thanks to Patrick Lamaiziere)
+    * v0.4.6: some changes in the "raw view" management.
+    * v0.4.6: changed subversion
+
+2005-03-08
+    * v0.4.5: added X-Face support (thanks to Andrew Taylor for helping me in the translation
+              of his javascript port of uncompface, and to Alien321 for telling me about the
+              Mnenhy Thunderbird extension)
+    * v0.4.5: added Face support (note you can't send Faces, because this is a non standard
+              header).
+    * v0.4.5: added i18n support with gettext. At the moment the supported languages 
+              are Italian and French (thanks to Guillaume Bedot for the code and for the 
+              French translation)
+    * v0.4.5: rewrote NNTP connection handler as an externale module. Now it should be
+              more readable and more reliable.
+    * v0.4.5: some refinements in watch/ignore/mark features
+    * v0.4.5: fixed some quirk behaviours in the wrapping feature. Now the live wrapping 
+              should work better.
+    * v0.4.5: added Subject based threading, it's used when References based threading fails
+    * v0.4.5: now XPN can generate Message-IDs, and you can also use a personal [pseudo-]FQDN.
+    * v0.4.5: added command line options, now you can run xpn with "-d" option and it will
+              store articles and configs files inside a .xpn directory in your home-dir.
+              (thanks to Guillaume Bedot for the code)
+    * v0.4.5: added a simple outbox, you can store your articles in it when you are
+              offline and then send them when you estabilish the connection with
+              the server.
+    * v0.4.5: now XPN should autmatically repair its database when it gets corrupted.
+    * v0.4.5: some fixes for Supersede/Cancel features
+    * v0.4.5: now you can select multiple row in groups list. So for instance you can 
+              subscribe more than one group with one click, or you can use the new 
+              "download new headers in selected groups".
+    * v0.4.5: now you can use a different From field when you reply by mail
+    * v0.4.5: fixed a bug introduced in the previous release that caused a crash trying
+              to use a NickName with extended characters in it.
+    * v0.4.5: changed subversion
+
+2005-01-17
+    * v0.4.0: added off-line reading. Now you can download the whole bodies, or mark
+              some article and download their bodies.
+    * v0.4.0: added Keep Article and Watch/Ignore SubThread
+    * v0.4.0: added actions rule, now you can !keep, !watch, !ignore (and so on) your
+              article through rules
+    * v0.4.0: now XPN stores the position and the size of Main Window and Edit Window
+    * v0.4.0: now you can customize the charsets list XPN use to encode your outgoing
+              articles
+    * v0.4.0: improved speed when loading groups list in Groups Window.
+    * v0.4.0: fixed a bug in the binary version that caused a crash trying to subscribe
+              a group
+    * v0.4.0: added Oriental Charsets support (thanks to Python2.4)
+    * v0.4.0: added Global Search, you can search the whole groups and put the results
+              in a virtual group
+    * v0.4.0: added filtered views
+    * v0.4.0: moved to GTK2.4 and Python2.4
+    * v0.4.0: added a TraceBack viewer and an error logger
+    * v0.4.0: reorganized some menus
+    * v0.4.0: now the background color is changed also on Groups Pane and Headers pane
+    * v0.4.0: added a lot of little features/enhancements
+    * v0.4.0: fixed a lot of bugs
+    * v0.4.0: changed subversion and minorversion
+    
+2004-11-13
+    * v0.3.5: improved speed when you open an article
+    * v0.3.5: fixed a bug in the smtp connection
+    * v0.3.5: fixed (again) a date sorting bug
+    * v0.3.5: now you can hide read articles
+    * v0.3.5: added spoiler char (^L or formfeed) support.
+    * v0.3.5: added "mute quote" and "mute signature" features
+    * v0.3.5: added "Supersede Article" and "Cancel Article" features
+    * v0.3.5: added three buttons "A" "H" "G" that let you zoom the Article/Headers/Groups Pane
+    * v0.3.5: reorganized the Score Window
+    * v0.3.5: added a Regular Expression Tester in the Score Window
+    * v0.3.5: changed subversion
+
+2004-09-11
+    * v0.3.1: added "One Click View" feature. Now you can open an article with a single click on it
+    * v0.3.1: fixed some bugs related to the followup function
+    * v0.3.1: fixed the timeout bug. Now XPN continue working even if the connection gets a timeout
+    * v0.3.1: added "Reply By Mail" feature. Now you can reply by mail directly from XPN. You can
+              specify the portnumber and you can use username and password if the server requires
+              authentication
+    * v0.3.1: changed subversion
+
+2004-06-18
+    * v0.3.0: now headers are collected with XOVER command
+    * v0.3.0: added scoring system, with a simple rules editor/viewer (see xpn.html for the details)
+    * v0.3.0: little changes in the header encoding. Now the encoding used for the header is not linked
+              to the encoding used for the body
+    * v0.3.0: fixed a bug in the custom headers support
+    * v0.3.0: little changes in the rot13 support
+    * v0.3.0: added "find in the body" feature
+    * v0.3.0: added regular expressions support whe you search a group in the Groups Window
+    * v0.3.0: added article search feature. Now you can search an article in the threads pane, also
+              with regular expressions. You can search in From, Subject, Msg-id and References
+              headers and in the body (only for read articles), and combine the results with AND
+              or OR logic
+    * v0.3.0: a lot of little changes and fixes
+    * v0.3.0: changed minorversion
+    
+2004-05-10
+    * v0.2.7: added external editor support
+    * v0.2.7: little change about rot13, now if there isn't selected text the whole article
+              will be encoded/decoded
+    * v0.2.7: fixed a bug caused by articles with strange line-terminators
+    * v0.2.7: little change in connection handling. Now you can enter a group and read already
+              read articles without having to estabilish a connection with server
+    * v0.2.7: fixed a bug in Import Newsrc
+    * v0.2.7: now the function that builds the threaded-view is much faster
+    * v0.2.7: other little changes
+    * v0.2.7: changed subversion
+
+2004-04-23 Antonio Caputo <nemesis2001@gmx.it>
+    * v0.2.6: added Import/Export newsrc file
+    * v0.2.6: added autoencode feature. Now XPN automatically chooses the best
+              encodig for outgoing articles
+    * v0.2.6: fixed another bug in threads building
+    * v0.2.6: updated xpn.html file
+    * v0.2.6: changed subversion
+
+2004-04-02 Antonio Caputo <nemesis2001@gmx.it>
+    * v0.2.5: added read articles persistance. When you read an article XPN
+              stores it. You can set two purge time (one for read article and another
+              one for unread articles), after that time article will be deleted
+    * v0.2.5: now you can select the text in Article Pane, and if you try a 
+              followup to newsgroup, only the selected text will be quoted
+    * v0.2.5: added token %e, it stands for the email
+    * v0.2.5: added token (%n,%g ...) recognition in X-header fields
+    * v0.2.5: fixed a little bug in threads building. References: null no 
+              longer blocks XPN
+    * v0.2.5: fixed a bug that affected the "custom launcher" entry in the 
+              config window (thanks to Valentino Volonghi)
+    * v0.2.5: changed subversion
+
+2004-02-29 Antonio Caputo <nemesis2001@gmx.it>
+    * v0.2.2: restored date sorting
+    * v0.2.2: fixed some strange behaviours in threads_pane
+    * v0.2.2: added more encodings
+    * v0.2.2: added support for web urls. Now you can open web urls, you can 
+              also customize the browser launcher command
+    * v0.2.2: now when you move to another group the article pane is cleared 
+    * v0.2.2: minor changes in Article module
+    * v0.2.2: added port number customization
+    * v0.2.2: fixed an uncaught exception in "Add Tagline"
+    + v0.2.2: newsgroup list download now is made in a different Thread
+    * v0.2.2: changed subversion
+
+2004-02-08 Antonio Caputo <nemesis2001@gmx.it>
+    * v0.2.0: rewritten header fetching routine. Now header fetching is about 
+              ten times faster
+    * v0.2.0: minor changes in article fetching
+    * v0.2.0: namespace moved from "XPN" to "xpn_src"
+    * v0.2.0: added server logs viewer
+    * v0.2.0: fixed "double click on groups pane" bug
+    * v0.2.0: changed minorversion
+    
+2004-01-24 Antonio Caputo <nemesis2001@gmx.it>
+    * v0.1.8: namespace moved from "src" to "XPN"
+    * v0.1.8: layout changes now are made "on the fly" 
+    * v0.1.8: added *bold*, /italic/, _undeline_, recognition
+    * v0.1.8: added "MODE READER" command after connection estabilishment
+              Now you can use XPN with INN2
+    * v0.1.8: supersedes header is now disabled, I have to study the RFC
+    * v0.1.8: some enhancements in connections handling
+    * v0.1.8: fixed date display
+    * v0.1.8: fixed some headers related bugs, now you can you use ":" in 
+              you custom headers
+    * v0.1.8: fixed the "deleting last line" bug in the Edit Win
+    * v0.1.8: some changes in quoting style, the first level quote now 
+              is "> ", in past versions was ">"
+    * v0.1.8: added url recognition and colouring whith a user defined color
+    * v0.1.8: fixed the "Row: Col:" display in the Edit Window. Now update 
+              occurs even if you only move the cursor
+    * v0.1.8: changed subversion
+
