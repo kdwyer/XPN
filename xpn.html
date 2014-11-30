@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>XPN Doc</title>
+<style>
+    body {width:70%;text-align:justify;font-family:sans-serif}
+    h1 {text-align:center}
+    
+</style>
+</head>
+<body>
+<h1>XPN - X Python Newsreader</h1>
+<h2>What is it?</h2>
+<p>
+    XPN is a newsreader written in python using the Gtk+ toolkit for 
+    the GUI. It is a multiplatform newsreader, it should work wherever
+    GTK+ and Python work.
+</p>
+<p>
+    XPN has a good support for MIME standards, but hasn't any support
+    for binary articles, so please use it on text-only newsgroups.
+   XPN is fully Unicode compliant.
+</p>
+<h2>Installing XPN</h2>
+<p>
+    Simply extract the tarball. A directory named "xpn-x.y.z" will be created.
+    In this directory you will find the executable file "xpn.py" that launchs
+    the newsreader.</br>
+    Type </br>
+    ./xpn.py --help </br>
+    to get informations on command-line options.
+
+</p>
+<h2>Using XPN</h2>
+<p>
+    Launch "xpn.py". The first time you have to configure the program.
+    Follow the instructions and fill all the fields.
+</p>
+<p>
+    Now you can download the newsgroups list from the server (this operation is
+    very slow, so please be patient). Open the newsgroups
+    window with the first button on the toolbar (or the voice in the file menu).
+</p>
+<p>
+    Download the list and subscribe the newsgroups. In the main window, when you click
+    on the newsgroup name, XPN shows the unread articles in a thread view. 
+    Clicking on the article you will read it.<br>
+    You can also use the keyboad. With key "n" you will read the
+    next article ("b" for the previous and "u" for the parent) and with "g" the next
+    group. The spacebar will scroll the article until reaching the bottom, and then
+    will move to the next article.</p>
+<p>
+    Pressing "p" you can post a new article to the selected group, while pressing
+    "f" you can post a followup to the article selected. When you compose an article
+    XPN automatically chooses the best encoding.
+</p>
+<h2>Scoring System</h2>
+<p>
+    XPN has a scoring/actions system. It is very simple, every article has a "score", initially
+    it is equal to 0.<br />
+    The score is calculated when you download new headers, with the rules you define. The syntax 
+    is very similar to the Hamster's one, however it is simplified.
+</p>
+<p>
+    Rules are saved in scores.txt (it's better if you don't edit it with an external editor, use
+    the internal rule editor), it is divided in ScoreBlocks. Every ScoreBlock starts with a Scope
+    Definition, it defines the groups in wich rules are applied.<br />
+    [*] Means: apply the rule in the whole groups<br />
+    [group1 group2 group3] Means: apply the rule in the listed groups
+</p>
+<p> 
+    With a rule you test an header (like From, Subject ...) searching for strings and things like that, if the
+    match is successful the score is modified.<br />
+    Every rule is composed by three parts:
+    <ol>
+    <li>The score modifier. You can increase (+value), decrease (-value) or assign (=+ or =-). the actual score
+    of the article. The processing of the article is stopped if its score is assigned with a successful rule.</li>
+    <li>The header used. You can chose from :Subject, From, Date, Message-ID, References, Bytes, Lines, Xref, Xpost, Age (in days)</li>
+    <li>The match definition. The way XPN decides if the rule is successful, it can search for a substring (defined 
+    like that "Substring" or like that c"Substring" if you need case sensivity), 
+    use a regular expression (defined with {regex} or with c{regex}), or confront numeric values (%>value, %&lt;value, %=value, %[value_inf,value_sup])</li>
+    </ol>
+    You can also invert a match definition prepending a "~". So the rule will be successful only if it doesn't match. The "~" has
+    to prepend the whole match rule, also the "c" modifier.
+    Examples:<br />
+    <pre>
+    # use this for comments
+    [*]
+    +100 From c"Nemesis"     #increase the score for the author 'Nemesis'
+    =+1000 Subject "xpn"     #assign the score for the articles with the 'xpn' word in the subject
+    =-9999 Subject ~c{[a-z]} #assign the score for the articles with a subject that doesn't contain small letters
+    
+    [it.comp.software.newsreader it.comp.lang.python]
+    -500 Age %>10            #decrease the score for articles ten days old
+    =-100 Xpost %>2          #assign the score for article posted on more than 2 groups</pre>
+    
+</p>
+<p>
+    Actions Rules are very similar to Scoring Rules. When an action rule is successful XPN apply the
+    action specified on the article. You can choose one of these actions :!kill, !markread, !markunread, !mark,
+    !unmark, !retrieve, !keep,!unkeep, !watch, !ignore, !unsetwatchignore, !setcolor(foreground;background).
+    The headers are the same of the Scoring Rules plus the field Score. Actions Rules are always applied
+    after Scoring Rules (even if they are placed before scoring rules in the scores.txt file), so you
+    can modify the score of an article and then apply an action according the score value.
+    <br /><br />Examples:<br />
+    <pre>
+    [*]
+    !watch Score %>5000                      #Watch articles with Score greater than 5000
+    !markread Score %[-1000,4000]            #Mark as read articles with Score in range
+    !kill From "Pinco@pallino.com"           #Kill articles from 'Pinco@pallino.com'
+    !setcolor(black;yellow) Lines ~%[10,20]  #Set the background color to yellow for articles whith more than
+                                             #20 lines and less than 10 lines 
+    </pre>
+</p>   
+<h2>Requirements</h2>
+<ul>
+    <li>Python (2.5 or better)</li>
+    <li>PyGtk (2.8 or better)</li>
+    <li>GTK+ (2.8 or better)</li>
+</ul>
+
+<div id="footer">
+Copyright © 2003, Antonio Caputo<br />
+<a href="http://xpn.altervista.org">http://xpn.altervista.org</a>
+Released under the terms of the GNU General Public License.
+See the file COPYING for details.
+</div>
+</body>
+</html>

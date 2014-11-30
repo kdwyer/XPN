@@ -1,0 +1,2310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-29 09:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xpn.py:305 xpn.py:352 xpn.py:417
+msgid "First you have to read the article"
+msgstr ""
+
+#: xpn.py:315
+#, python-format
+msgid ""
+"Do you want to CANCEL this article?\n"
+"\n"
+"Subject: %s \n"
+"Message-ID: %s"
+msgstr ""
+
+#: xpn.py:322
+msgid "Cancel Article Sent: "
+msgstr ""
+
+#: xpn.py:326
+msgid "You can Cancel/Supersede only your articles"
+msgstr ""
+
+#: xpn.py:377
+#, python-format
+msgid ""
+"This is a crosspost! \n"
+" Do you want to send the article only on the original newsgroup (%s) ?"
+msgstr ""
+
+#: xpn.py:382
+#, python-format
+msgid ""
+"Original Poster set \"Followup_to\" on %s,\n"
+"\n"
+"Do you want to send your article on the original newsgroup (%s) ?"
+msgstr ""
+
+#: xpn.py:386
+msgid ""
+"Original Poster set \"Followup_to: poster\",\n"
+"\n"
+"Do you want to reply by mail ?"
+msgstr ""
+
+#: xpn.py:660
+msgid "Please Wait. Building Threads"
+msgstr ""
+
+#: xpn.py:862
+#, python-format
+msgid "%s selected"
+msgstr ""
+
+#: xpn.py:1191
+msgid "> [...Muted Quote...]"
+msgstr ""
+
+#: xpn.py:1204
+msgid "[...Muted Sign...]"
+msgstr ""
+
+#: xpn.py:1449
+msgid "This is root article"
+msgstr ""
+
+#: xpn.py:1464
+msgid "Article Found"
+msgstr ""
+
+#: xpn.py:1500
+msgid "Article loaded"
+msgstr ""
+
+#: xpn.py:1502 xpn.py:1504
+msgid "This article is not available on the server"
+msgstr ""
+
+#: xpn.py:1507
+msgid "There are new articles in watched threads: "
+msgstr ""
+
+#: xpn.py:1524 xpn.py:1646 xpn.py:1673
+msgid "Download Completed"
+msgstr ""
+
+#: xpn.py:1577 xpn_src/Groups_Win.py:162 xpn_src/Newsrc.py:224
+msgid "Fetching Headers"
+msgstr ""
+
+#: xpn.py:1590 xpn_src/Groups_Win.py:171 xpn_src/Newsrc.py:233
+msgid "Building Articles"
+msgstr ""
+
+#: xpn.py:1592 xpn_src/Groups_Win.py:173 xpn_src/Newsrc.py:235
+msgid "No New Headers"
+msgstr ""
+
+#: xpn.py:1611
+#, python-format
+msgid "Refreshing Group %s"
+msgstr ""
+
+#: xpn.py:1679
+#, python-format
+msgid "Downloading Bodies for %s"
+msgstr ""
+
+#: xpn.py:1822
+msgid "Select Newsrc Export Path"
+msgstr ""
+
+#: xpn.py:1840
+msgid "Select Newsrc File"
+msgstr ""
+
+#: xpn.py:1841 xpn_src/ID_Win.py:28
+msgid "Show Hidden Files"
+msgstr ""
+
+#: xpn.py:1866
+msgid ""
+"To correctly import a newsrc file you have to use the same server you used "
+"when you saved the file.\n"
+"\n"
+"By default XPN uses a name like 'server_name.newsrc' so it is possible to "
+"know wich server was used\n"
+"\n"
+"When you try to import a newsrc file XPN searches for the server name in the "
+"file name.\n"
+"\n"
+"\n"
+"<b>Server To Use:</b>"
+msgstr ""
+
+#: xpn.py:1875
+msgid "File does not exist"
+msgstr ""
+
+#: xpn.py:1882
+msgid "Newsrc successful imported"
+msgstr ""
+
+#: xpn.py:2107
+msgid "Newsgroups"
+msgstr ""
+
+#: xpn.py:2107
+msgid "UnRead"
+msgstr ""
+
+#: xpn.py:2287
+#, python-format
+msgid "Purging Group: %s"
+msgstr ""
+
+#: xpn.py:2424
+msgid "_File"
+msgstr ""
+
+#: xpn.py:2425 xpn_src/KeyBindings.py:21
+msgid "Groups List..."
+msgstr ""
+
+#: xpn.py:2425
+msgid "Manage Groups"
+msgstr ""
+
+#: xpn.py:2426 xpn_src/KeyBindings.py:22
+msgid "Scoring and Action Rules..."
+msgstr ""
+
+#: xpn.py:2426
+msgid "Edit Scoring and Action Rules"
+msgstr ""
+
+#: xpn.py:2427 xpn_src/KeyBindings.py:23
+msgid "Server Logs..."
+msgstr ""
+
+#: xpn.py:2428 xpn_src/KeyBindings.py:24
+msgid "Export Newsrc..."
+msgstr ""
+
+#: xpn.py:2429 xpn_src/KeyBindings.py:25
+msgid "Import Newsrc..."
+msgstr ""
+
+#: xpn.py:2430 xpn_src/KeyBindings.py:26
+msgid "Modify Keyboard Shortcuts..."
+msgstr ""
+
+#: xpn.py:2431 xpn_src/KeyBindings.py:27
+msgid "Preferences..."
+msgstr ""
+
+#: xpn.py:2431
+msgid "Preferences"
+msgstr ""
+
+#: xpn.py:2432 xpn_src/KeyBindings.py:28 xpn_src/KeyBindings.py:130
+#: xpn_src/Outbox_Manager.py:432
+msgid "Exit"
+msgstr ""
+
+#: xpn.py:2433
+msgid "_Search"
+msgstr ""
+
+#: xpn.py:2434 xpn_src/KeyBindings.py:30
+msgid "Find Article..."
+msgstr ""
+
+#: xpn.py:2435 xpn_src/KeyBindings.py:32
+msgid "Global Search ..."
+msgstr ""
+
+#: xpn.py:2436
+msgid "Filter Articles ..."
+msgstr ""
+
+#: xpn.py:2437 xpn_src/KeyBindings.py:33
+msgid "Search in the Body..."
+msgstr ""
+
+#: xpn.py:2438
+msgid "_View"
+msgstr ""
+
+#: xpn.py:2439 xpn_src/KeyBindings.py:35
+msgid "Articles View Options"
+msgstr ""
+
+#: xpn.py:2440 xpn_src/KeyBindings.py:43
+msgid "Groups View Options"
+msgstr ""
+
+#: xpn.py:2441
+msgid "_Navigate"
+msgstr ""
+
+#: xpn.py:2442 xpn_src/KeyBindings.py:58
+msgid "View Next Group"
+msgstr ""
+
+#: xpn.py:2443 xpn_src/KeyBindings.py:59
+msgid "Read Previous Article"
+msgstr ""
+
+#: xpn.py:2444 xpn_src/KeyBindings.py:60
+msgid "Read Next Article"
+msgstr ""
+
+#: xpn.py:2445 xpn_src/KeyBindings.py:61
+msgid "Read Next Unread Article"
+msgstr ""
+
+#: xpn.py:2446 xpn_src/KeyBindings.py:62
+msgid "Read Parent Article"
+msgstr ""
+
+#: xpn.py:2447 xpn_src/KeyBindings.py:63
+msgid "One-Key Reading"
+msgstr ""
+
+#: xpn.py:2448 xpn_src/KeyBindings.py:64
+msgid "One-Key Scroll Up"
+msgstr ""
+
+#: xpn.py:2449 xpn_src/KeyBindings.py:65
+msgid "Focus to Article Pane"
+msgstr ""
+
+#: xpn.py:2450
+msgid "Focus to Groups Pane"
+msgstr ""
+
+#: xpn.py:2451 xpn_src/KeyBindings.py:67
+msgid "Focus to Threads Pane"
+msgstr ""
+
+#: xpn.py:2452 xpn.py:2789 xpn_src/KeyBindings.py:68
+msgid "Zoom Article Pane"
+msgstr ""
+
+#: xpn.py:2453 xpn.py:2791
+msgid "Zoom Groups Pane"
+msgstr ""
+
+#: xpn.py:2454 xpn_src/KeyBindings.py:70
+msgid "Zoom Threads Pane"
+msgstr ""
+
+#: xpn.py:2455
+msgid "Subscribed _Groups"
+msgstr ""
+
+#: xpn.py:2456 xpn_src/KeyBindings.py:72
+msgid "Get New Headers in Subscribed Groups"
+msgstr ""
+
+#: xpn.py:2457 xpn_src/KeyBindings.py:73
+msgid "Get New Headers in Selected Groups"
+msgstr ""
+
+#: xpn.py:2458 xpn_src/KeyBindings.py:74
+msgid "Get Marked Article Bodies in Subscribed Groups"
+msgstr ""
+
+#: xpn.py:2459 xpn_src/KeyBindings.py:75
+msgid "Get Marked Article Bodies in Selected Groups"
+msgstr ""
+
+#: xpn.py:2460 xpn_src/KeyBindings.py:76
+msgid "Expand All Threads"
+msgstr ""
+
+#: xpn.py:2460
+msgid "Expand All"
+msgstr ""
+
+#: xpn.py:2461 xpn_src/KeyBindings.py:77
+msgid "Collapse All Threads"
+msgstr ""
+
+#: xpn.py:2461
+msgid "Collapse All"
+msgstr ""
+
+#: xpn.py:2462 xpn_src/KeyBindings.py:78
+msgid "Expand Selected SubThread"
+msgstr ""
+
+#: xpn.py:2463 xpn_src/KeyBindings.py:79
+msgid "Collapse Selected SubThread"
+msgstr ""
+
+#: xpn.py:2464 xpn_src/KeyBindings.py:80
+msgid "Mark Group ..."
+msgstr ""
+
+#: xpn.py:2465 xpn_src/KeyBindings.py:81
+msgid "Mark Selected Groups as Read"
+msgstr ""
+
+#: xpn.py:2466 xpn_src/KeyBindings.py:82
+msgid "Mark Selected Groups as Unread"
+msgstr ""
+
+#: xpn.py:2467 xpn_src/KeyBindings.py:83
+msgid "Mark Group for Retrieving"
+msgstr ""
+
+#: xpn.py:2468 xpn_src/KeyBindings.py:84
+msgid "Keep Articles in Selected Groups"
+msgstr ""
+
+#: xpn.py:2469 xpn_src/KeyBindings.py:85
+msgid "Mark All Groups as Read"
+msgstr ""
+
+#: xpn.py:2470 xpn_src/KeyBindings.py:86
+msgid "Mark All Groups as Unread"
+msgstr ""
+
+#: xpn.py:2471 xpn_src/KeyBindings.py:87
+msgid "Apply Scoring and Action Rules"
+msgstr ""
+
+#: xpn.py:2472 xpn_src/Groups_Vs_ID.py:39 xpn_src/KeyBindings.py:88
+msgid "Assign Identities to Groups"
+msgstr ""
+
+#: xpn.py:2473
+msgid "_Articles"
+msgstr ""
+
+#: xpn.py:2474 xpn_src/KeyBindings.py:41
+msgid "Show/Hide Headers"
+msgstr ""
+
+#: xpn.py:2475 xpn_src/Edit_Mail_Win.py:640 xpn_src/Edit_Win.py:732
+#: xpn_src/KeyBindings.py:42 xpn_src/KeyBindings.py:120
+msgid "ROT13 Selected Text"
+msgstr ""
+
+#: xpn.py:2476 xpn_src/KeyBindings.py:96
+msgid "Flags & Score"
+msgstr ""
+
+#: xpn.py:2477 xpn_src/KeyBindings.py:97
+msgid "Mark Article as Read"
+msgstr ""
+
+#: xpn.py:2478 xpn_src/KeyBindings.py:98
+msgid "Mark Article as UnRead"
+msgstr ""
+
+#: xpn.py:2479 xpn_src/KeyBindings.py:99
+msgid "Mark Article for Retrieving"
+msgstr ""
+
+#: xpn.py:2480 xpn_src/KeyBindings.py:100
+msgid "Keep Article"
+msgstr ""
+
+#: xpn.py:2481 xpn_src/KeyBindings.py:101
+msgid "Delete Article"
+msgstr ""
+
+#: xpn.py:2482 xpn_src/KeyBindings.py:102
+msgid "Mark SubThread as UnRead"
+msgstr ""
+
+#: xpn.py:2483 xpn_src/KeyBindings.py:103
+msgid "Mark SubThread as Read"
+msgstr ""
+
+#: xpn.py:2484 xpn_src/KeyBindings.py:104
+msgid "Mark SubThread for Retrieving"
+msgstr ""
+
+#: xpn.py:2485 xpn_src/KeyBindings.py:105
+msgid "Keep SubThread"
+msgstr ""
+
+#: xpn.py:2486 xpn_src/KeyBindings.py:106
+msgid "Watch SubThread"
+msgstr ""
+
+#: xpn.py:2487 xpn_src/KeyBindings.py:107
+msgid "Ignore SubThread"
+msgstr ""
+
+#: xpn.py:2488 xpn_src/KeyBindings.py:108
+msgid "Raise Author Score"
+msgstr ""
+
+#: xpn.py:2489 xpn_src/KeyBindings.py:109
+msgid "Lower Author Score"
+msgstr ""
+
+#: xpn.py:2490 xpn_src/KeyBindings.py:110
+msgid "Set Author Score"
+msgstr ""
+
+#: xpn.py:2491 xpn_src/KeyBindings.py:90
+msgid "Post New Article..."
+msgstr ""
+
+#: xpn.py:2491
+msgid "Post New Article"
+msgstr ""
+
+#: xpn.py:2492 xpn_src/KeyBindings.py:93
+msgid "Open Outbox Manager"
+msgstr ""
+
+#: xpn.py:2493 xpn_src/KeyBindings.py:91
+msgid "Follow-Up To Newsgroup..."
+msgstr ""
+
+#: xpn.py:2493
+msgid "Follow-Up To Newsgroup"
+msgstr ""
+
+#: xpn.py:2494 xpn_src/KeyBindings.py:92
+msgid "Reply By Mail..."
+msgstr ""
+
+#: xpn.py:2494
+msgid "Reply by Mail"
+msgstr ""
+
+#: xpn.py:2495 xpn_src/KeyBindings.py:95
+msgid "Supersede Article..."
+msgstr ""
+
+#: xpn.py:2496 xpn_src/KeyBindings.py:94
+msgid "Cancel Article..."
+msgstr ""
+
+#: xpn.py:2497 xpn_src/KeyBindings.py:111
+msgid "Help"
+msgstr ""
+
+#: xpn.py:2498 xpn_src/KeyBindings.py:112
+msgid "About..."
+msgstr ""
+
+#: xpn.py:2507 xpn_src/KeyBindings.py:44
+msgid "Show Threads"
+msgstr ""
+
+#: xpn.py:2508 xpn_src/KeyBindings.py:45
+msgid "Show All Read Threads"
+msgstr ""
+
+#: xpn.py:2509 xpn_src/KeyBindings.py:46
+msgid "Show Threads Without Watched Articles"
+msgstr ""
+
+#: xpn.py:2510 xpn_src/KeyBindings.py:47
+msgid "Show Read Articles"
+msgstr ""
+
+#: xpn.py:2511 xpn_src/KeyBindings.py:48
+msgid "Show UnRead Articles"
+msgstr ""
+
+#: xpn.py:2512 xpn_src/KeyBindings.py:49
+msgid "Show Kept Articles"
+msgstr ""
+
+#: xpn.py:2513 xpn_src/KeyBindings.py:50
+msgid "Show UnKept Articles"
+msgstr ""
+
+#: xpn.py:2514 xpn_src/KeyBindings.py:51
+msgid "Show Watched Articles"
+msgstr ""
+
+#: xpn.py:2515 xpn_src/KeyBindings.py:52
+msgid "Show Ignored Articles"
+msgstr ""
+
+#: xpn.py:2516 xpn_src/KeyBindings.py:53
+msgid "Show UnWatched/UnIgnored Articles"
+msgstr ""
+
+#: xpn.py:2517 xpn_src/KeyBindings.py:54
+msgid "Show Articles with Score<0"
+msgstr ""
+
+#: xpn.py:2518 xpn_src/KeyBindings.py:55
+msgid "Show Articles with Score=0"
+msgstr ""
+
+#: xpn.py:2519 xpn_src/KeyBindings.py:56
+msgid "Show Articles with Score>0"
+msgstr ""
+
+#: xpn.py:2520 xpn_src/KeyBindings.py:36
+msgid "View Raw Article"
+msgstr ""
+
+#: xpn.py:2521 xpn_src/KeyBindings.py:37
+msgid "Show Spoilered Text"
+msgstr ""
+
+#: xpn.py:2522 xpn_src/KeyBindings.py:38
+msgid "Show Quoted Text"
+msgstr ""
+
+#: xpn.py:2523 xpn_src/KeyBindings.py:39
+msgid "Show Signatures"
+msgstr ""
+
+#: xpn.py:2524 xpn_src/KeyBindings.py:40
+msgid "Fixed Pitch Font"
+msgstr ""
+
+#: xpn.py:2629
+msgid ""
+"An instance of XPN is already running.\n"
+"\n"
+"Do you want to open XPN anyway?"
+msgstr ""
+
+#: xpn.py:2715
+msgid "Filter Articles by: "
+msgstr ""
+
+#: xpn.py:2719
+msgid "Close Filter Toolbar"
+msgstr ""
+
+#: xpn.py:2790
+msgid "Zoom Headers Pane"
+msgstr ""
+
+#: xpn.py:2837
+msgid ""
+"Missing Config File.\n"
+"\n"
+"Do you want to Configure XPN now?"
+msgstr ""
+
+#: xpn.py:2869
+msgid "Unexpected error in the excepthook."
+msgstr ""
+
+#: xpn.py:2877
+msgid ""
+"python %prog [-d] [-cCUSTOM_DIR]\n"
+"\n"
+"With command line options you can decide where XPN will save config files "
+"and articles.\n"
+"If you don't use any option, the current working directory will be used.\n"
+"If you use the '--home_dir' option, XPN will create a .xpn directory inside "
+"your home directory, and will store informations inside that directory.\n"
+"If you use the '--custom_dir' option, XPN will create a .xpn directory "
+"inside that custom_directory.\n"
+"\n"
+"NOTE: If you set the '--home_dir' option, XPN will ignore the '--custom_dir' "
+"option (if you used it).\n"
+"\n"
+"Examples:\n"
+"python xpn.py\n"
+"python xpn.py -d\n"
+"python xpn.py --custom_dir /home/user/custom"
+msgstr ""
+
+#: xpn.py:2879
+msgid "use home directory to store config files and articles"
+msgstr ""
+
+#: xpn.py:2881
+msgid "specify an existing directory where store config files and articles"
+msgstr ""
+
+#: xpn_src/add_tag.py:27
+msgid "TagLine Added"
+msgstr ""
+
+#: xpn_src/add_tag.py:33
+msgid "TagLine length: "
+msgstr ""
+
+#: xpn_src/add_tag.py:43
+#, python-format
+msgid "Found %s tags"
+msgstr ""
+
+#: xpn_src/add_tag.py:50
+msgid "XPN TagLines Manager"
+msgstr ""
+
+#: xpn_src/add_tag.py:54
+msgid ""
+"\n"
+"<b>Insert here a tagline</b>\n"
+msgstr ""
+
+#: xpn_src/Article_Pane.py:27
+msgid "Subject: "
+msgstr ""
+
+#: xpn_src/Article_Pane.py:28
+msgid "From: "
+msgstr ""
+
+#: xpn_src/Article_Pane.py:29
+msgid "Date: "
+msgstr ""
+
+#: xpn_src/Article_Pane.py:31 xpn_src/Article_Pane.py:40
+#: xpn_src/Article_Pane.py:418 xpn_src/Article_Pane.py:419
+msgid "Expand Headers Row"
+msgstr ""
+
+#: xpn_src/Article_Pane.py:36 xpn_src/Article_Pane.py:413
+msgid "Hide Headers"
+msgstr ""
+
+#: xpn_src/Charset_List.py:199
+msgid "Available Charsets"
+msgstr ""
+
+#: xpn_src/Charset_List.py:201
+msgid "Ordered Charsets"
+msgstr ""
+
+#: xpn_src/Charset_List.py:213 xpn_src/Charset_List.py:237
+#: xpn_src/Config_Win.py:582 xpn_src/Config_Win.py:714
+#: xpn_src/Groups_Win.py:315 xpn_src/Headers_List.py:141
+#: xpn_src/Headers_List.py:160
+msgid "List"
+msgstr ""
+
+#: xpn_src/Charset_List.py:247
+msgid "XPN will try to encode your articles with these charsets in this order"
+msgstr ""
+
+#: xpn_src/Charset_List.py:284 xpn_src/Headers_List.py:210
+msgid "Set Default List"
+msgstr ""
+
+#: xpn_src/Config_Win.py:509
+msgid "Servers"
+msgstr ""
+
+#: xpn_src/Config_Win.py:515
+msgid "NNTP Servers"
+msgstr ""
+
+#: xpn_src/Config_Win.py:554
+msgid "Add a Server"
+msgstr ""
+
+#: xpn_src/Config_Win.py:560
+msgid "Edit Selected Server"
+msgstr ""
+
+#: xpn_src/Config_Win.py:566
+msgid "Remove Selected Server"
+msgstr ""
+
+#: xpn_src/Config_Win.py:594
+msgid "SMTP Server"
+msgstr ""
+
+#: xpn_src/Config_Win.py:614 xpn_src/Server_Win.py:100
+msgid "Server requires authentication"
+msgstr ""
+
+#: xpn_src/Config_Win.py:617
+msgid "SMTP Server Address | Port Number"
+msgstr ""
+
+#: xpn_src/Config_Win.py:620 xpn_src/Server_Win.py:111
+msgid "Username"
+msgstr ""
+
+#: xpn_src/Config_Win.py:623 xpn_src/Server_Win.py:113
+msgid "Password"
+msgstr ""
+
+#: xpn_src/Config_Win.py:647
+msgid "User Profile"
+msgstr ""
+
+#: xpn_src/Config_Win.py:682
+msgid "Add an Identity"
+msgstr ""
+
+#: xpn_src/Config_Win.py:688
+msgid "Edit Selected Identity"
+msgstr ""
+
+#: xpn_src/Config_Win.py:694
+msgid "Remove Selected Identity"
+msgstr ""
+
+#: xpn_src/Config_Win.py:733
+msgid "Fonts and Colors"
+msgstr ""
+
+#: xpn_src/Config_Win.py:742
+msgid "Fonts"
+msgstr ""
+
+#: xpn_src/Config_Win.py:749 xpn_src/Edit_Win.py:892
+#: xpn_src/KeyBindings.py:115
+msgid "Article"
+msgstr ""
+
+#: xpn_src/Config_Win.py:760
+msgid "Threads"
+msgstr ""
+
+#: xpn_src/Config_Win.py:771 xpn_src/Config_Win.py:1372
+msgid "Groups"
+msgstr ""
+
+#: xpn_src/Config_Win.py:782
+msgid "Use System Fonts"
+msgstr ""
+
+#: xpn_src/Config_Win.py:793
+msgid "Colors"
+msgstr ""
+
+#: xpn_src/Config_Win.py:801
+msgid "Text"
+msgstr ""
+
+#: xpn_src/Config_Win.py:803
+msgid "Quote Level 1"
+msgstr ""
+
+#: xpn_src/Config_Win.py:806
+msgid "Quote Level 2"
+msgstr ""
+
+#: xpn_src/Config_Win.py:808
+msgid "Quote Level 3"
+msgstr ""
+
+#: xpn_src/Config_Win.py:810
+msgid "Sign"
+msgstr ""
+
+#: xpn_src/Config_Win.py:812 xpn_src/Config_Win.py:911
+msgid "Background"
+msgstr ""
+
+#: xpn_src/Config_Win.py:815
+msgid "URL"
+msgstr ""
+
+#: xpn_src/Config_Win.py:831
+msgid "Select Text Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:835
+msgid "Select Quote Level 1 Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:839
+msgid "Select Quote Level 2 Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:843
+msgid "Select Quote Level 3 Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:847
+msgid "Select Sign Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:851
+msgid "Select Background Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:855
+msgid "Select URL Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:888
+msgid "Headers Colors"
+msgstr ""
+
+#: xpn_src/Config_Win.py:900
+msgid "Select Headers Background Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:904
+msgid "Select Headers Foreground Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:908
+msgid "Color"
+msgstr ""
+
+#: xpn_src/Config_Win.py:925 xpn_src/Config_Win.py:928
+msgid "Layout"
+msgstr ""
+
+#: xpn_src/Config_Win.py:951
+msgid ""
+"G:  Groups Pane\n"
+"\n"
+"H:  Headers Pane\n"
+"\n"
+"A:  Article Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:959
+msgid "Article Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:966
+msgid "Display Headers in the Article Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:968
+msgid "Headers List"
+msgstr ""
+
+#: xpn_src/Config_Win.py:970 xpn_src/Headers_List.py:165
+msgid "XPN will show these headers on the top of the Article Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:971
+msgid "Headers Shown on the Article Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:982
+msgid "Threads Pane"
+msgstr ""
+
+#: xpn_src/Config_Win.py:989
+msgid "Threads expander position"
+msgstr ""
+
+#: xpn_src/Config_Win.py:990
+msgid "Subject Column"
+msgstr ""
+
+#: xpn_src/Config_Win.py:991
+msgid "From Column"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1013
+msgid "Download"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1015
+msgid "Visualization"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1017
+msgid "Navigation"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1027
+msgid "Purge Options"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1035
+msgid "Number of days. '0' means never purge read articles"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1036
+msgid "Purge read articles after (days)"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1040
+msgid "Number of days. '0' means never purge unread articles"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1041
+msgid "Purge unread articles after (days)"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1057 xpn_src/Groups_Win.py:440
+#: xpn_src/KeyBindings.py:89
+msgid "Articles"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1062
+msgid "Retrieve Bodies for all new articles"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1063
+msgid "Limit the number of articles to download"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1065
+msgid "Max number of articles to download"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1078
+msgid "Automatic Header Download"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1083
+msgid "Download Headers automatically"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1085
+msgid "Minutes Between Downloads"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1101
+msgid "Sorting Options"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1107
+msgid "Ascending Order"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1108
+msgid "Sorting Column"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1113 xpn_src/Find_Win.py:163 xpn_src/Find_Win.py:509
+#: xpn_src/Outbox_Manager.py:514 xpn_src/Threads_Pane.py:273
+msgid "Subject"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1113 xpn_src/Find_Win.py:160 xpn_src/Find_Win.py:506
+#: xpn_src/Threads_Pane.py:274
+msgid "From"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1113 xpn_src/Outbox_Manager.py:524
+#: xpn_src/Threads_Pane.py:275
+msgid "Date"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1113 xpn_src/Score.py:805 xpn_src/Threads_Pane.py:276
+msgid "Score"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1130
+msgid "Charsets"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1136
+msgid "Fallback Charset (Reading)"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1148
+msgid "Charsets List"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1152
+msgid "XPN will try to use the charsets in this order"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1153
+msgid "Ordered List (Writing)"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1166
+msgid "Threading Method"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1172
+msgid "Fast (but imprecise) old Algorithm"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1173
+msgid "Slow (but precise) new Algorithm"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1182 xpn_src/Config_Win.py:1221
+msgid "Miscellaneous"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1188
+msgid "Advance to the Next Article on Mark"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1189
+msgid "One Click Enter Group"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1190
+msgid "One Click Enter Article"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1191
+msgid "Expand Group on Entering"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1192
+#, python-format
+msgid "Scroll Text (% of page)"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1218
+msgid "External Apps"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1231
+msgid "Web Browser"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1236
+msgid "Use Custom Web Browser Launcher"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1240
+#, python-format
+msgid ""
+"Type your custom command, %s represents the url.\n"
+"Examples:\n"
+"\n"
+"mozilla %s &\n"
+"xterm -e links %s"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1242
+msgid "Web Browser Launcher"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1257
+msgid "External Editor"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1261
+msgid "Always Use External Editor"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1264
+#, python-format
+msgid ""
+"Type the editor launcher, %s represents the filename.\n"
+"Examples:\n"
+"\n"
+"xterm -e vim %s\n"
+"gvim -f %s\n"
+"notepad.exe %s\n"
+"\"C:\\Program Files\\Notepad++\\Notepad++.exe\" %s -nosession\n"
+"\n"
+"NOTE: This feature works only with *Nix and Windows systems"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1266
+msgid "External Editor Command"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1280
+msgid "Language"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1288
+msgid "English"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1297
+msgid "Italian"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1306
+msgid "French"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1315
+msgid "German"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1327
+msgid ""
+"You must restart XPN in order\n"
+" to get the translation active"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1347
+msgid "XPN Preferences"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1368 xpn_src/Edit_Win.py:855
+#: xpn_src/Groups_Win.py:354 xpn_src/Groups_Win.py:369
+msgid "Server"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1368
+msgid "Configure Server Profiles"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1369
+msgid "User"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1369
+msgid "Configure User Profile"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1370
+msgid "Display"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1370
+msgid "Configure Display Profile"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1372
+msgid "Configure Group Properties"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1373
+msgid "Misc"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1373
+msgid "Configure Miscellaneous Properties"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1397 xpn_src/Groups_Vs_ID.py:98 xpn_src/ID_Win.py:381
+#: xpn_src/Score.py:1001 xpn_src/Server_Win.py:136
+msgid "Close window. Discard changes"
+msgstr ""
+
+#: xpn_src/Config_Win.py:1404 xpn_src/Groups_Vs_ID.py:105
+#: xpn_src/ID_Win.py:388 xpn_src/Server_Win.py:143
+msgid "Close window and save settings"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:143 xpn_src/Connections_Handler.py:168
+#: xpn_src/Connections_Handler.py:429 xpn_src/Connections_Handler.py:453
+#, python-format
+msgid ""
+"No connection with server : %s. Configure NNTP Server Address or try later."
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:147 xpn_src/Connections_Handler.py:433
+#, python-format
+msgid "Connection estabilished with server: %s"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:199 xpn_src/Connections_Handler.py:216
+#: xpn_src/Connections_Handler.py:261 xpn_src/Connections_Handler.py:269
+#: xpn_src/Connections_Handler.py:311 xpn_src/Connections_Handler.py:349
+#: xpn_src/Connections_Handler.py:375
+#, python-format
+msgid "Server error: %s"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:202 xpn_src/Connections_Handler.py:219
+#: xpn_src/Connections_Handler.py:273 xpn_src/Connections_Handler.py:315
+#: xpn_src/Connections_Handler.py:353 xpn_src/Connections_Handler.py:381
+#, python-format
+msgid "%s response : %s"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:265
+msgid "Server Error: "
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:265
+msgid "You can try on Google:"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:496
+msgid "Connection closed"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:538
+#, python-format
+msgid ""
+"No connection with server : %s. Configure SMTP Server Address or try later."
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:542
+#, python-format
+msgid "Connection estabilished with: %s"
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:565
+msgid "Unable to send the message. Control Server Logs."
+msgstr ""
+
+#: xpn_src/Connections_Handler.py:568
+msgid "Email Sent"
+msgstr ""
+
+#: xpn_src/Dialogs.py:19
+msgid "About"
+msgstr ""
+
+#: xpn_src/Dialogs.py:68
+msgid "Choose the Server"
+msgstr ""
+
+#: xpn_src/Dialogs.py:91
+msgid "First you have to configure at least one Server"
+msgstr ""
+
+#: xpn_src/Dialogs.py:101
+msgid "Error Dialog"
+msgstr ""
+
+#: xpn_src/Dialogs.py:129
+msgid "Last Error"
+msgstr ""
+
+#: xpn_src/Dialogs.py:131
+msgid "Errors Log"
+msgstr ""
+
+#: xpn_src/Dialogs.py:141
+msgid "Message-ID Search Dialog"
+msgstr ""
+
+#: xpn_src/Dialogs.py:143
+msgid "Message-ID to search"
+msgstr ""
+
+#: xpn_src/Dialogs.py:151
+msgid "Search in current group"
+msgstr ""
+
+#: xpn_src/Dialogs.py:152
+msgid "Search in subscribed groups"
+msgstr ""
+
+#: xpn_src/Dialogs.py:153
+msgid "Search on Google"
+msgstr ""
+
+#: xpn_src/Dialogs.py:187
+msgid "Shortcut Dialog"
+msgstr ""
+
+#: xpn_src/Dialogs.py:188
+msgid "Type your Shortcut"
+msgstr ""
+
+#: xpn_src/Dialogs.py:190
+msgid "Press OK to confirm it"
+msgstr ""
+
+#: xpn_src/Dialogs.py:222
+msgid "Window"
+msgstr ""
+
+#: xpn_src/Dialogs.py:224 xpn_src/KeyBindings.py:443
+msgid "Shortcut"
+msgstr ""
+
+#: xpn_src/Dialogs.py:226 xpn_src/KeyBindings.py:442 xpn_src/Score.py:903
+msgid "Action"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:105 xpn_src/Edit_Win.py:113
+msgid "Error while opening external editor"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:193 xpn_src/Edit_Win.py:203
+msgid "tags.txt not found"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:217 xpn_src/Edit_Win.py:227
+msgid "Signature file not found"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:362 xpn_src/Edit_Mail_Win.py:363
+#: xpn_src/Edit_Win.py:420 xpn_src/Edit_Win.py:421
+msgid "* <b>From</b> field appears to be invalid\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:368 xpn_src/Edit_Mail_Win.py:369
+msgid "* <b>To</b> field appears to be invalid\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:384 xpn_src/Edit_Win.py:444
+msgid "* <b>Article</b> seems to be empty\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:385 xpn_src/Edit_Win.py:445
+msgid "* <b>Article</b> doesn't contain new text\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:386 xpn_src/Edit_Win.py:446
+#, python-format
+msgid "* <b>Article</b> contains more than 95% of quoted text\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:392 xpn_src/Edit_Win.py:452
+msgid "* <b>Subject</b> field is empty\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:394 xpn_src/Edit_Win.py:460
+msgid "* <b>From</b> field is empty\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:398
+msgid "* <b>To</b> field is empty\n"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:422 xpn_src/Edit_Win.py:482
+msgid "Errors:"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:424 xpn_src/Edit_Mail_Win.py:428
+#: xpn_src/Edit_Win.py:484 xpn_src/Edit_Win.py:488
+msgid "Warnings:"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:428 xpn_src/Edit_Win.py:488
+msgid ""
+"\n"
+"\n"
+"Do you want to send the Article?"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:457 xpn_src/Edit_Win.py:518
+#: xpn_src/Outbox_Manager.py:255
+msgid "Problems while opening : "
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:504 xpn_src/Edit_Win.py:563
+#, python-format
+msgid "row:%d, col:%d"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:635 xpn_src/Edit_Win.py:727
+msgid "_Article"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:636 xpn_src/Edit_Win.py:728
+msgid "_Send Article"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:636 xpn_src/Edit_Win.py:728
+#: xpn_src/KeyBindings.py:116
+msgid "Send Article"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:637 xpn_src/Edit_Win.py:729
+msgid "Send Article _Later"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:637 xpn_src/Edit_Win.py:729
+#: xpn_src/KeyBindings.py:117
+msgid "Send Article Later"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:638 xpn_src/Edit_Win.py:730
+#: xpn_src/KeyBindings.py:118
+msgid "Save Article as Draft"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:639 xpn_src/Edit_Win.py:731
+msgid "_Discard Article"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:639 xpn_src/Edit_Win.py:731
+#: xpn_src/KeyBindings.py:119
+msgid "Discard Article"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:640 xpn_src/Edit_Win.py:732
+msgid "_ROT13 Selected Text"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:641 xpn_src/Edit_Win.py:733
+msgid "Launch External _Editor"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:641 xpn_src/Edit_Win.py:733
+#: xpn_src/KeyBindings.py:121
+msgid "Launch External Editor"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:642 xpn_src/Edit_Win.py:734
+msgid "_Insert Spoiler Char"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:642 xpn_src/Edit_Win.py:734
+#: xpn_src/KeyBindings.py:122
+msgid "Insert Spoiler Char"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:728
+msgid "Edit Mail"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:749 xpn_src/Edit_Win.py:834
+#: xpn_src/Groups_Vs_ID.py:50 xpn_src/ID_Win.py:181
+msgid "Identity"
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:776
+msgid "To : "
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:779 xpn_src/Edit_Win.py:899
+msgid "From : "
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:782 xpn_src/Edit_Win.py:902
+msgid "Subject : "
+msgstr ""
+
+#: xpn_src/Edit_Mail_Win.py:785 xpn_src/Edit_Win.py:980
+msgid "Charset : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:427
+msgid "* <b>Newsgroups</b> field appears to be invalid\n"
+msgstr ""
+
+#: xpn_src/Edit_Win.py:454
+msgid "* <b>Newsgroups</b> field is empty\n"
+msgstr ""
+
+#: xpn_src/Edit_Win.py:813
+msgid "Edit Article"
+msgstr ""
+
+#: xpn_src/Edit_Win.py:896
+msgid "Newsgroups : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:952
+msgid "More Headers"
+msgstr ""
+
+#: xpn_src/Edit_Win.py:956
+msgid "Reply-To : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:959
+msgid "Sender : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:962
+msgid "Organization : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:965
+msgid "Followup-To : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:968
+msgid "Mail-Copies-To : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:971
+msgid "Archive : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:974
+msgid "Supersedes : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:977
+msgid "Approved : "
+msgstr ""
+
+#: xpn_src/Edit_Win.py:1019 xpn_src/ID_Win.py:354
+msgid "Custom Headers (X-Headers)"
+msgstr ""
+
+#: xpn_src/Edit_Win.py:1101 xpn_src/Groups_Win.py:214
+#: xpn_src/Groups_Win.py:215 xpn_src/Newsrc.py:191
+msgid "First you have to create at least one Identity"
+msgstr ""
+
+#: xpn_src/Find_Win.py:152
+msgid "Find Article"
+msgstr ""
+
+#: xpn_src/Find_Win.py:166 xpn_src/Find_Win.py:512 xpn_src/ID_Win.py:331
+msgid "Message-ID"
+msgstr ""
+
+#: xpn_src/Find_Win.py:169 xpn_src/Find_Win.py:515
+msgid "References"
+msgstr ""
+
+#: xpn_src/Find_Win.py:172 xpn_src/Find_Win.py:518 xpn_src/ID_Win.py:228
+msgid "Body"
+msgstr ""
+
+#: xpn_src/Find_Win.py:180 xpn_src/Find_Win.py:526
+msgid "Fields"
+msgstr ""
+
+#: xpn_src/Find_Win.py:206 xpn_src/Find_Win.py:348
+msgid "Start from the Beginning"
+msgstr ""
+
+#: xpn_src/Find_Win.py:207 xpn_src/Find_Win.py:349 xpn_src/Find_Win.py:553
+#: xpn_src/Groups_Win.py:345
+msgid "Use Regular Expression"
+msgstr ""
+
+#: xpn_src/Find_Win.py:208 xpn_src/Find_Win.py:350 xpn_src/Find_Win.py:554
+msgid "Case Insensitive"
+msgstr ""
+
+#: xpn_src/Find_Win.py:210 xpn_src/Find_Win.py:556
+msgid "Rule used to combine search results"
+msgstr ""
+
+#: xpn_src/Find_Win.py:212 xpn_src/Find_Win.py:558
+msgid "AND"
+msgstr ""
+
+#: xpn_src/Find_Win.py:213 xpn_src/Find_Win.py:559
+msgid "OR"
+msgstr ""
+
+#: xpn_src/Find_Win.py:222 xpn_src/Find_Win.py:567 xpn_src/Score.py:734
+msgid "Rules"
+msgstr ""
+
+#: xpn_src/Find_Win.py:336
+msgid "Search in the Body"
+msgstr ""
+
+#: xpn_src/Find_Win.py:344
+msgid "Text or Regular Expression"
+msgstr ""
+
+#: xpn_src/Find_Win.py:498
+msgid "Global Search"
+msgstr ""
+
+#: xpn_src/Groups_Vs_ID.py:46
+msgid "Group"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:84
+msgid "Please wait, I'm downloading the list"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:146
+msgid "Searching..."
+msgstr ""
+
+#: xpn_src/Groups_Win.py:182 xpn_src/Newsrc.py:243
+msgid "Group subscribed"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:224
+msgid "The Group Name seems to be wrong"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:246
+msgid "Group removed"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:299 xpn_src/Groups_Win.py:354
+#: xpn_src/Groups_Win.py:440
+msgid "NewsGroups"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:333
+msgid "Search Group"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:337
+msgid "Start searching"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:340
+msgid "Perform Live Search"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:349
+msgid "Show Full List"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:354
+msgid "Mode"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:379
+msgid "Get Newsgroups List"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:383
+msgid "This could take several minutes"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:396
+msgid "Articles Number"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:402
+msgid "Download this number of articles (headers only)"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:406 xpn_src/KeyBindings.py:71
+msgid "Subscribed Groups"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:427
+msgid "Subscribe selected groups"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:437
+msgid "UnSubscribe selected groups"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:450
+msgid "Subscribe Manually"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:465
+msgid "Close this window"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:482
+msgid "Building Newsgroups list"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:489
+msgid "You have to download newsgroups list"
+msgstr ""
+
+#: xpn_src/Groups_Win.py:494
+msgid "Newsgroups list loaded"
+msgstr ""
+
+#: xpn_src/Headers_List.py:125
+msgid "Standard Headers"
+msgstr ""
+
+#: xpn_src/Headers_List.py:127
+msgid "Shown Headers"
+msgstr ""
+
+#: xpn_src/Headers_List.py:204
+msgid "Add Manually"
+msgstr ""
+
+#: xpn_src/ID_Win.py:27
+msgid "Select Signature File"
+msgstr ""
+
+#: xpn_src/ID_Win.py:97
+msgid "Please set the Identity Name"
+msgstr ""
+
+#: xpn_src/ID_Win.py:165
+msgid "Identity Settings"
+msgstr ""
+
+#: xpn_src/ID_Win.py:171
+msgid "Personal Informations"
+msgstr ""
+
+#: xpn_src/ID_Win.py:198
+msgid "Name or NickName"
+msgstr ""
+
+#: xpn_src/ID_Win.py:200
+msgid "E-Mail address"
+msgstr ""
+
+#: xpn_src/ID_Win.py:208
+msgid "Use different From field in mail replies"
+msgstr ""
+
+#: xpn_src/ID_Win.py:212
+msgid "Name or NickName (for Mail replies)"
+msgstr ""
+
+#: xpn_src/ID_Win.py:215
+msgid "E-Mail address (for Mail replies)"
+msgstr ""
+
+#: xpn_src/ID_Win.py:233
+msgid "Headers"
+msgstr ""
+
+#: xpn_src/ID_Win.py:239
+msgid "Compose"
+msgstr ""
+
+#: xpn_src/ID_Win.py:248
+msgid "  Wrap column"
+msgstr ""
+
+#: xpn_src/ID_Win.py:253
+msgid "Attribution line"
+msgstr ""
+
+#: xpn_src/ID_Win.py:258
+msgid ""
+"%s = Subject\n"
+"%g = Newsgroups\n"
+"%f = From\n"
+"%n = Nick\n"
+"%e = Email\n"
+"%d = Date"
+msgstr ""
+
+#: xpn_src/ID_Win.py:269
+msgid "Signature"
+msgstr ""
+
+#: xpn_src/ID_Win.py:279
+msgid "Use random taglines"
+msgstr ""
+
+#: xpn_src/ID_Win.py:280
+msgid "Change Signature Path"
+msgstr ""
+
+#: xpn_src/ID_Win.py:284
+msgid "Add a Tagline"
+msgstr ""
+
+#: xpn_src/ID_Win.py:297
+msgid "Optional Headers"
+msgstr ""
+
+#: xpn_src/ID_Win.py:310
+msgid "Reply-To"
+msgstr ""
+
+#: xpn_src/ID_Win.py:313
+msgid "Organization"
+msgstr ""
+
+#: xpn_src/ID_Win.py:315
+msgid "Mail-Copies-To"
+msgstr ""
+
+#: xpn_src/ID_Win.py:337
+msgid "Generate Message-ID"
+msgstr ""
+
+#: xpn_src/ID_Win.py:341
+msgid ""
+"You can write here a FQDN (Fully Qualified Domain Name) that will be used to "
+"compose the Message-ID.\n"
+"Otherwise if you leave this field blank XPN will use your Host Name."
+msgstr ""
+
+#: xpn_src/ID_Win.py:343
+msgid "Fully Qualified Domain Name"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:20
+msgid "File"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:29
+msgid "Search"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:31
+msgid "Filter Articles..."
+msgstr ""
+
+#: xpn_src/KeyBindings.py:34
+msgid "View"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:57
+msgid "Navigate"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:66
+msgid "Focus to groups Pane"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:69
+msgid "Zoom groups Pane"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:125
+msgid "Outbox"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:126 xpn_src/Outbox_Manager.py:428
+msgid "Send Queued Articles"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:127 xpn_src/Outbox_Manager.py:429
+msgid "Send Queued Mails"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:128 xpn_src/Outbox_Manager.py:430
+msgid "Edit Article/Mail"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:129 xpn_src/Outbox_Manager.py:431
+msgid "Delete Article/Mail"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:281 xpn_src/KeyBindings.py:287
+#: xpn_src/KeyBindings.py:350 xpn_src/KeyBindings.py:382
+msgid "Edit Window"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:282 xpn_src/KeyBindings.py:295
+#: xpn_src/KeyBindings.py:340 xpn_src/KeyBindings.py:375
+msgid "Main Window"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:288 xpn_src/KeyBindings.py:294
+#: xpn_src/KeyBindings.py:359 xpn_src/KeyBindings.py:389
+msgid "Outbox Window"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:299
+msgid "Found duplicated shortcuts on different windows"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:299
+msgid "That's not a problem, the shortcut will work only on the active window "
+msgstr ""
+
+#: xpn_src/KeyBindings.py:301 xpn_src/KeyBindings.py:363 xpn_src/Score.py:423
+msgid "No Errors"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:361
+msgid "Found duplicated shortcuts on the same windows"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:426
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:448
+msgid "Change Shortcut"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:451
+msgid "Default Shortcuts"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:454
+msgid "Clear Shortcuts"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:457
+msgid "Duplicates Warnings"
+msgstr ""
+
+#: xpn_src/KeyBindings.py:460
+msgid "Duplicates Errors"
+msgstr ""
+
+#: xpn_src/Newsrc.py:150
+msgid "Newsrc successful exported"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:65
+msgid "OutBox"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:68
+msgid "OutGoing Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:71
+msgid "OutGoing Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:75
+msgid "Drafts"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:78
+msgid "Draft Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:81
+msgid "Draft Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:85
+msgid "Sent"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:88
+msgid "Sent Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:91
+msgid "Sent Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:99 xpn_src/Outbox_Manager.py:273
+msgid "Problems while opening News OutBox"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:107 xpn_src/Outbox_Manager.py:335
+msgid "Problems while opening Mail OutBox"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:115
+msgid "Problems while opening News Drafts"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:123
+msgid "Problems while opening Mail Drafts"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:131
+msgid "Problems while opening Sent Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:139
+msgid "Problems while opening Sent Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:170
+msgid "Problems while opening folder :"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:180 xpn_src/Outbox_Manager.py:293
+msgid "Problems while opening article :"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:246
+#, python-format
+msgid "Problems while deleting the article: %s"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:247
+msgid "Article Deleted"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:295
+msgid "Sending Article: "
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:321
+#, python-format
+msgid "Sent %d Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:346
+msgid "Problems while opening mail :"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:348
+msgid "Sending Mail: "
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:373
+#, python-format
+msgid "Sent %d Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:427
+msgid "_Outbox"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:428
+msgid "_Send Queued Articles"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:429
+msgid "Send Queued _Mails"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:430
+msgid "_Edit Article/Mail"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:431
+msgid "_Delete Article/Mail"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:432
+msgid "_Exit"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:452
+msgid "Outbox Manager"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:490
+msgid "Folder"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:495
+msgid "Number"
+msgstr ""
+
+#: xpn_src/Outbox_Manager.py:519
+msgid "Newsgroups/To"
+msgstr ""
+
+#: xpn_src/Score.py:122
+msgid "Syntax Error: Unknown Action on line:: "
+msgstr ""
+
+#: xpn_src/Score.py:124
+msgid "Syntax Error: Bad Score Modifier on line:: "
+msgstr ""
+
+#: xpn_src/Score.py:126
+msgid "Syntax Error: Unknown Header Name on line:: "
+msgstr ""
+
+#: xpn_src/Score.py:128
+msgid "Syntax Error: Bad Match Rule on line:: "
+msgstr ""
+
+#: xpn_src/Score.py:180
+msgid "Syntax Error: Missing scope for line :: "
+msgstr ""
+
+#: xpn_src/Score.py:182
+msgid "Syntax Error: Bad Line:: "
+msgstr ""
+
+#: xpn_src/Score.py:371
+msgid "Scope/Score Mod"
+msgstr ""
+
+#: xpn_src/Score.py:372
+msgid "Header"
+msgstr ""
+
+#: xpn_src/Score.py:373
+msgid "Match Rule"
+msgstr ""
+
+#: xpn_src/Score.py:676
+msgid "Scoring Rules"
+msgstr ""
+
+#: xpn_src/Score.py:692
+msgid "Correct Rules"
+msgstr ""
+
+#: xpn_src/Score.py:702
+msgid "Score File Editor"
+msgstr ""
+
+#: xpn_src/Score.py:720
+msgid "ReScan Rules"
+msgstr ""
+
+#: xpn_src/Score.py:722
+msgid "Show Errors"
+msgstr ""
+
+#: xpn_src/Score.py:746 xpn_src/Score.py:844
+msgid "Groups Scope"
+msgstr ""
+
+#: xpn_src/Score.py:768 xpn_src/Score.py:865
+msgid "Condition"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Contains String"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Doesn't Contain String"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Matches RegEx"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Doesn't Match RegEx"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Greater Than"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Not Greater Than"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Lower Than"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Not Lower Than"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Equal To (numbers only)"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Different From (numbers only)"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "In Range"
+msgstr ""
+
+#: xpn_src/Score.py:780 xpn_src/Score.py:877
+msgid "Out Of Range"
+msgstr ""
+
+#: xpn_src/Score.py:788 xpn_src/Score.py:885 xpn_src/Score.py:966
+msgid "Case Sensitive"
+msgstr ""
+
+#: xpn_src/Score.py:792 xpn_src/Score.py:889
+msgid "Lower Limit"
+msgstr ""
+
+#: xpn_src/Score.py:793 xpn_src/Score.py:890
+msgid "Upper Limit"
+msgstr ""
+
+#: xpn_src/Score.py:811
+msgid "Raise Score"
+msgstr ""
+
+#: xpn_src/Score.py:811
+msgid "Lower Score"
+msgstr ""
+
+#: xpn_src/Score.py:811
+msgid "Set Score"
+msgstr ""
+
+#: xpn_src/Score.py:825 xpn_src/Score.py:939
+msgid "Add Rule"
+msgstr ""
+
+#: xpn_src/Score.py:832
+msgid "New Scoring Rule"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Kill"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Mark Read"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Mark Unread"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Mark for Download"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "UnMark for Download"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Retrieve"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Keep"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "UnKeep"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Watch"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "Ignore"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "UnSetWatchIgnore"
+msgstr ""
+
+#: xpn_src/Score.py:911
+msgid "SetColor"
+msgstr ""
+
+#: xpn_src/Score.py:919
+msgid "Foreground Color"
+msgstr ""
+
+#: xpn_src/Score.py:920
+msgid "Background Color"
+msgstr ""
+
+#: xpn_src/Score.py:946
+msgid "New Action Rule"
+msgstr ""
+
+#: xpn_src/Score.py:957
+msgid "Regular Expression"
+msgstr ""
+
+#: xpn_src/Score.py:964
+msgid "Test Regular Expression"
+msgstr ""
+
+#: xpn_src/Score.py:974
+msgid "Test Text"
+msgstr ""
+
+#: xpn_src/Score.py:991
+msgid "RE Tester"
+msgstr ""
+
+#: xpn_src/Score.py:1006
+msgid "Close window. Save Changes"
+msgstr ""
+
+#: xpn_src/Server_Win.py:53
+msgid "Please set the Server Name"
+msgstr ""
+
+#: xpn_src/Server_Win.py:81
+msgid "Server Settings"
+msgstr ""
+
+#: xpn_src/Server_Win.py:85
+msgid "NNTP Server"
+msgstr ""
+
+#: xpn_src/Server_Win.py:102
+msgid "Use SSL (Secure Socket Layer)"
+msgstr ""
+
+#: xpn_src/Server_Win.py:107
+msgid "NNTP Server Address"
+msgstr ""
+
+#: xpn_src/Server_Win.py:108
+msgid "Port Number"
+msgstr ""
+
+#: xpn_src/Show_Logs.py:48
+msgid "Server Logs Viewer"
+msgstr ""
+
+#: xpn_src/Show_Logs.py:55
+msgid "Server Logs"
+msgstr ""
